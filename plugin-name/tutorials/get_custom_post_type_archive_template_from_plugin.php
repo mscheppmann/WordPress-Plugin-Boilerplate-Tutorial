@@ -33,7 +33,7 @@ private function define_public_hooks() {
  * @link https://codex.wordpress.org/Plugin_API/Filter_Reference/archive_template
  * @link http://wordpress.stackexchange.com/a/116025/90212
  */
-function get_custom_post_type_archive_template(  ) {
+function get_custom_post_type_archive_template( $archive_template ) {
 
     global $post;
     $custom_post_type = 'customers';
